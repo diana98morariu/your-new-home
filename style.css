@@ -1,0 +1,517 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.active {
+    text-decoration: underline overline solid #f0e370;
+
+}
+input.error{ border: 3px solid #f8ad8a; }
+/***********signup button**********/
+.dropbtn {
+    padding: 20px;
+    border: none;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown_content_signup{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 5;
+    align-items: center;
+    justify-items: center;
+}
+.dropdown_content_signup a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    
+}
+.dropdown_content_signup a:hover {
+    background-color: #f0e370;
+    color: black;
+}
+.dropdown:hover .dropdown_content_signup {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+        color: #f0e370;
+}
+
+
+
+body {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-size: 100%;
+    overflow: hidden;
+    background-image: url('images/bg-image4.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Ubuntu', sans-serif;
+}
+nav {
+    display: grid;
+    top: 0px;
+    grid-template-columns: repeat(5, 1fr) ;
+    align-items: center;
+    justify-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.918);
+    color: white;
+    box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.164);
+}
+nav a {
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+
+}
+nav a:hover {
+    color: #f0e370;
+}
+.logo_id{
+    display: block;
+    width: 45%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.logo_id:hover{
+    transform: scale(1.1);
+}
+/*********** submit form for both agent and user***********/
+.signupForm{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin-top: 100px;
+    background-color: rgba(39, 39, 39, 0.479);
+    padding: 70px 100px 70px 100px;
+    box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.164);
+}
+input{
+    width: 120%;
+    height: 45px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 100%;
+    margin-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.164);
+}
+button {
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 100%;
+    margin-top: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.164);
+}
+form > div{
+    /* background-color: rgba(32, 32, 32, 0.705); */
+    margin-top: 10px;
+    padding: 2px;
+    left: 0px;  
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 90%;
+    border-radius: 5px;
+}
+
+/************login form************/
+.loginForm{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin-top: 100px;
+    background-color: rgba(39, 39, 39, 0.479);
+    padding: 70px 100px 70px 100px;
+    box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.164);
+}
+.agent-image{
+    display: block;
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+    box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.164);
+}
+.profileInfo {
+    display: block;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.164);
+}
+#property_container{
+    display:grid;
+    overflow-y: scroll;
+    top:100px;
+    height: calc(100vh - 150px);
+    width: 100%;
+    box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.164);
+}
+.indiv-property{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width:90%;
+    padding-top: 10px;
+    box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.164);
+    font-size: 90%;
+}
+.delete-button {
+    width: 90%;
+}
+.property{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+}
+.input-property input{
+    width:90%;
+    height: 30px;
+}
+#property_container h3 {
+    text-align: center;
+    color: #FFF;
+}
+.property-upload-container h3 {
+    text-align: center;
+    color: #FFF;
+}
+.profile-image-name h3 {
+    text-align: center;
+    color: #FFF;
+}
+#myFile {
+    color: #FFF;
+}
+#input_profile_image{
+    color: #FFF;
+}
+.agent {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.agent-image {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#update_button {
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    text-align: center;
+    padding: 12px;
+    font-size: 100%;
+    border-radius: 5px;
+    font-size: 110%;
+    margin-top: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.164);
+}
+#uploaded_image {
+    display: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #f0e370;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* text-align: center;
+    align-items: center; */
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,.3);
+    transition: transform .2s;
+      
+}
+.profile-image{
+    width: 200px;
+    height: 200px;
+}
+.profile-image-name input {
+    width: 100%;
+}
+.agent-image{
+    padding:10px;
+}
+.lastName-profileInfo{
+    margin-top: 10px;
+}
+.container {
+    display:grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 2fr;
+    top: 80%;
+    /* height: calc(100vh - 200px); */
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    background-color: rgba(39, 39, 39, 0.767);
+    box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.164);
+}
+.inputProfile {
+    width: 100%;
+}
+#property_upload input{
+    width:100%;
+}
+#property_upload{
+    padding:20px;
+    box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.164);
+}
+#delete_button a{
+    text-decoration: none;
+    color: black;
+}
+#delete_button{
+    background-color: #f0e370;
+    margin-top: 20px;
+}
+.image-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px 10px 10px 10px;
+    margin-top: 0px;
+}
+.container-user{
+    display:grid;
+    background-color: rgba(39, 39, 39, 0.767);
+    padding: 20px;
+}
+.container-user input{
+    width: 100%;
+}
+#file{
+    width: 100%;
+    color: white;
+}
+.user-image{
+    align-items: center;
+    justify-items: center;
+}
+#frmContact{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.form-wraper-contact{
+    display: grid;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+    grid-template-columns: 1fr 2fr;
+    color: white;
+    background-color: rgba(39, 39, 39, 0.644);
+    padding: 30px;
+    width: 70%;
+}
+.form-contact-inputs{
+    width: 90%;
+    height: 45px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 100%;
+    margin-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.164);
+    top: 200px;
+}
+#submit_button{
+    width: 90%;
+    border-radius: 5px;
+    color: black;
+}
+#txtMessage{
+    height: 200px;
+    padding-top: 10px;
+}
+.contact-info{
+    display: block;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 10px;
+}
+.contact-info h1{
+    padding-bottom: 20px;
+}
+#frmContact p {
+    display: block;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 10px;
+}
+
+/*************properties page***********/
+#properties{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    overflow-y: scroll;
+    padding: 0px 20px 0px 20px;
+}
+
+#map_properties{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    position: fixed;
+    top:100px;
+    height: calc(100vh - 100px);
+    background-color: rgb(255, 255, 255);
+}
+.property-image{
+    display: block;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.property-properties{
+    width: 100%;
+    object-fit: cover;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.267);
+    border-bottom: 5px solid #f0e370;
+}
+.price-info{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.total-info{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.info{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: rgb(80, 79, 79);
+    font-size: 90%;
+}
+.price, .bathrooms, .bedrooms {
+    margin-top: 4px;
+}
+.price{
+    font-weight: 600;
+    font-size: 110%;
+}
+.for-rent{
+    color: rgb(95, 95, 95);
+    font-size: 80%;
+}
+/* marker contact page */
+.active-property{
+    /* box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.164); */
+    border-bottom: 10px solid #f07070;
+}
+.active-marker{
+    /* background-image: url('images/marker2.svg'); */
+    background-color: #f07070c5;
+    border-radius: 10px;
+}
+.marker {
+    display: block;
+    background-image: url('images/marker.svg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 40px;
+    cursor: pointer;
+    /* transition: transform .2s; */
+}
+.marker:hover{
+    background-image: url('images/marker2.svg');
+}
+/****************** search and frontpage ******************/
+#results {
+    display: none;
+    border-radius: 5px;
+    background: #FFF;
+    position: fixed;
+    width:270px;
+    
+}
+#results a {
+    display: grid;
+    text-decoration: none;
+    color: rgb(116, 116, 116);
+    font-weight: 100;
+    padding: 5px 10px;
+    width: 100%;
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+}
+#results a:hover {
+    color: #f0e370;
+    background: #f1f1f1;
+
+}
+.error {
+    border: 2px solid #f54066;
+}
+.error:focus {
+    color: #f54066;
+}
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+.searchButton, .btn-form {
+    width: 60px;
+    height: 45px;
+    background: #f0e370;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 5px 0px 16px 3px rgba(0, 0, 0, 0.164);
+}
+#txtSearch {
+    border-radius: 5px 0px 0px 5px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.wrap {
+    background-color: rgba(39, 39, 39, 0.692);
+    padding: 70px 100px 70px 100px;
+    box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.233);
+}
+.wrap h1 {
+    color: white;
+}

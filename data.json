@@ -1,0 +1,74 @@
+{
+    "agents": {
+        "5d795f2076b8d": {
+            "name": "Diana",
+            "lastname": "Morariu",
+            "email": "diana.morariu@gmail.com",
+            "password": "brynetntnte",
+            "properties": {}
+        },
+        "5d7a23785c051": {
+            "name": "aaa",
+            "lastname": "aaaa",
+            "email": "a@a.com",
+            "password": "vbervbceiruvbreuivrnei",
+            "properties": {}
+        },
+        "5d7a24e746d0c": {
+            "name": "cccccc",
+            "lastname": "ccccc",
+            "email": "c@c.com",
+            "password": "ciebcuievheirvucberivur",
+            "properties": {}
+        },
+        "5d7a264511498": {
+            "name": "ddd",
+            "lastname": "dddd",
+            "email": "d@d.com",
+            "password": "vcuberivbenrviuuervnr",
+            "properties": {}
+        },
+        "5d7a26de2ff6f": {
+            "name": "eeeee",
+            "lastname": "eeeee",
+            "email": "e@e.com",
+            "password": "idbeiuvbeivuebvif",
+            "properties": {}
+        },
+        "5d7a281fe0002": {
+            "name": "ffffff",
+            "lastname": "ffffff",
+            "email": "f@f.com",
+            "password": "khbceibcvruvc",
+            "properties": {}
+        },
+        "5d7a2b78b93a1": {
+            "name": "gggg",
+            "lastname": "ggggg",
+            "email": "g@g.com",
+            "password": "ucgherivgeryviervo",
+            "properties": {}
+        },
+        "5d7a3028c17bf": {
+            "name": "Diana",
+            "lastname": "Morariu",
+            "email": "diana.morariu@gmail.com",
+            "password": "mutdmtymtm",
+            "properties": {}
+        }
+    },
+    "users": {
+        "5d795fcf9e89b": {
+            "name": "Diana",
+            "lastname": "Morariu",
+            "email": "dia.morariu@yahoo.com",
+            "password": "fbvdfbgbsrgnrgbnsrt"
+        },
+        "5d7a23f4ae645": {
+            "name": "bbb",
+            "lastname": "bbbbb",
+            "email": "b@b.com",
+            "password": "khveiurvbeiuverv"
+        }
+    }
+}

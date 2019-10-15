@@ -1,0 +1,718 @@
+{
+    "5d7e4847c9cce": {
+        "name": "Diana",
+        "lastname": "Morariu",
+        "email": "diana.morariu@gmail.com",
+        "password": "1234567890",
+        "properties": {
+            "P1": {
+                "id": "P1",
+                "geometry": {
+                    "coordinates": [
+                        12.554867,
+                        55.707038
+                    ],
+                    "type": "Point"
+                },
+                "iconSize": [
+                    20,
+                    20
+                ],
+                "type": "Feature",
+                "image": "house1.jpg",
+                "price": 20000,
+                "address": "G\u00e6rdebred 11",
+                "bathrooms": 2,
+                "bedrooms": 3,
+                "surface": 150,
+                "zipcode": "2300"
+            },
+            "P2": {
+                "id": "P2",
+                "geometry": {
+                    "coordinates": [
+                        12.54972,
+                        55.713084
+                    ],
+                    "type": "Point"
+                },
+                "iconSize": [
+                    20,
+                    20
+                ],
+                "type": "Feature",
+                "image": "house2.jpg",
+                "price": 24000,
+                "address": "Amagerf\u00e6lledvej 6",
+                "bathrooms": 1,
+                "bedrooms": 2,
+                "surface": 100,
+                "zipcode": "2200"
+            },
+            "P3": {
+                "id": "P3",
+                "geometry": {
+                    "coordinates": [
+                        12.489816,
+                        55.699316
+                    ],
+                    "type": "Point"
+                },
+                "iconSize": [
+                    20,
+                    20
+                ],
+                "type": "Feature",
+                "image": "house3.jpg",
+                "price": 20050,
+                "address": "Egilsgade 4",
+                "bathrooms": 2,
+                "bedrooms": 4,
+                "surface": 175,
+                "zipcode": "2400"
+            },
+            "5d82a8247cdf4": {
+                "id": "5d82a8247cdf4",
+                "geometry": {
+                    "coordinates": [
+                        12.572225,
+                        55.70419
+                    ],
+                    "type": "Point"
+                },
+                "iconSize": [
+                    20,
+                    20
+                ],
+                "type": "Feature",
+                "image": "5d82a8247c9da.jpg",
+                "price": 1,
+                "address": "qaqsq",
+                "bathrooms": 1,
+                "bedrooms": 1,
+                "surface": 123,
+                "zipcode": "1123"
+            },
+            "5d82a93a6e83a": {
+                "id": "5d82a93a6e83a",
+                "geometry": {
+                    "coordinates": [
+                        12.572225,
+                        55.70419
+                    ],
+                    "type": "Point"
+                },
+                "iconSize": [
+                    20,
+                    20
+                ],
+                "type": "Feature",
+                "image": "5d82a93a6e4c1.jpg",
+                "price": 19000,
+                "address": "Lygten 14",
+                "bathrooms": 2,
+                "bedrooms": 3,
+                "surface": 98,
+                "zipcode": "2400"
+            },
+            "5d8339738838d": {
+                "id": "5d8339738838d",
+                "geometry": {
+                    "coordinates": [
+                        12.572225,
+                        55.70419
+                    ],
+                    "type": "Point"
+                },
+                "iconSize": [
+                    20,
+                    20
+                ],
+                "type": "Feature",
+                "image": "5d83397387fde.jpg",
+                "price": 1223,
+                "address": "vsfbfdbf",
+                "bathrooms": 1,
+                "bedrooms": 5,
+                "surface": 123,
+                "zipcode": "1234"
+            }
+        },
+        "image": "5d7e69003095c.JPG",
+        "id": "5d7e4847c9cce"
+    },
+    "5d7f4ddcc37c7": {
+        "name": "Ioana",
+        "lastname": "Loloiu",
+        "email": "e@e.com",
+        "password": "evbrieuvbernvoeirnv",
+        "properties": {
+            "P4": {
+                "id": "P4",
+                "geometry": {
+                    "coordinates": [
+                        12.577021,
+                        55.704148
+                    ],
+                    "type": "Point"
+                },
+                "iconSize": [
+                    20,
+                    20
+                ],
+                "type": "Feature",
+                "image": "house4.jpg",
+                "price": 23400,
+                "address": "Snorresgade 6",
+                "bathrooms": 1,
+                "bedrooms": 2,
+                "surface": 100,
+                "zipcode": "2300"
+            },
+            "P5": {
+                "id": "P5",
+                "geometry": {
+                    "coordinates": [
+                        12.572225,
+                        55.70419
+                    ],
+                    "type": "Point"
+                },
+                "iconSize": [
+                    20,
+                    20
+                ],
+                "type": "Feature",
+                "image": "house5.jpg",
+                "price": 20000,
+                "address": "Bernstorffsgade 10",
+                "bathrooms": 2,
+                "bedrooms": 4,
+                "surface": 190,
+                "zipcode": "2200"
+            }
+        },
+        "image": "",
+        "id": "5d7f4ddcc37c7"
+    },
+    "5d7f4e003534b": {
+        "name": "Sergiu",
+        "lastname": "Simut",
+        "email": "j@j.com",
+        "password": "vbefjhbveivnefv",
+        "properties": {
+            "P6": {
+                "id": "P6",
+                "geometry": {
+                    "coordinates": [
+                        12.553809,
+                        55.711108
+                    ],
+                    "type": "Point"
+                },
+                "iconSize": [
+                    20,
+                    20
+                ],
+                "type": "Feature",
+                "image": "house6.jpg",
+                "price": 25200,
+                "address": "Gl. Kongevej 8",
+                "bathrooms": 2,
+                "bedrooms": 4,
+                "surface": 160,
+                "zipcode": "2300"
+            },
+            "P7": {
+                "id": "P7",
+                "geometry": {
+                    "coordinates": [
+                        12.551448,
+                        55.704993
+                    ],
+                    "type": "Point"
+                },
+                "iconSize": [
+                    20,
+                    20
+                ],
+                "type": "Feature",
+                "image": "house7.jpg",
+                "price": 20900,
+                "address": "Danasvej 45",
+                "bathrooms": 2,
+                "bedrooms": 2,
+                "surface": 90,
+                "zipcode": "2200"
+            },
+            "P8": {
+                "id": "P8",
+                "geometry": {
+                    "coordinates": [
+                        12.53668,
+                        55.711969
+                    ],
+                    "type": "Point"
+                },
+                "iconSize": [
+                    20,
+                    20
+                ],
+                "type": "Feature",
+                "image": "house8.jpg",
+                "price": 14000,
+                "address": "Forchhammersvej 7",
+                "bathrooms": 1,
+                "bedrooms": 2,
+                "surface": 80,
+                "zipcode": "2300"
+            },
+            "P9": {
+                "id": "P9",
+                "geometry": {
+                    "coordinates": [
+                        12.578829,
+                        55.717032
+                    ],
+                    "type": "Point"
+                },
+                "iconSize": [
+                    20,
+                    20
+                ],
+                "type": "Feature",
+                "image": "house9.jpg",
+                "price": 22000,
+                "address": "Sindshvilevej 15",
+                "bathrooms": 2,
+                "bedrooms": 4,
+                "surface": 210,
+                "zipcode": "2200"
+            }
+        },
+        "image": "",
+        "id": "5d7f4e003534b"
+    },
+    "5d7f4e33697f6": {
+        "name": "Laura",
+        "lastname": "Cruduleci",
+        "email": "r@r.com",
+        "password": "bfeiuvubneivueiouv",
+        "properties": {
+            "P10": {
+                "id": "P10",
+                "geometry": {
+                    "coordinates": [
+                        12.526781,
+                        55.754275
+                    ],
+                    "type": "Point"
+                },
+                "iconSize": [
+                    20,
+                    20
+                ],
+                "type": "Feature",
+                "image": "house10.jpg",
+                "price": 18300,
+                "address": "Nordre Fasanvej 34",
+                "bathrooms": 1,
+                "bedrooms": 3,
+                "surface": 90,
+                "zipcode": "2200"
+            },
+            "P11": {
+                "id": "P11",
+                "geometry": {
+                    "coordinates": [
+                        12.506402,
+                        55.751716
+                    ],
+                    "type": "Point"
+                },
+                "iconSize": [
+                    20,
+                    20
+                ],
+                "type": "Feature",
+                "image": "house11.jpg",
+                "price": 22006,
+                "address": "Nyelandsvej 14",
+                "bathrooms": 2,
+                "bedrooms": 5,
+                "surface": 180,
+                "zipcode": "2300"
+            },
+            "P12": {
+                "id": "P12",
+                "geometry": {
+                    "coordinates": [
+                        12.582849,
+                        55.745933
+                    ],
+                    "type": "Point"
+                },
+                "iconSize": [
+                    20,
+                    20
+                ],
+                "type": "Feature",
+                "image": "house12.jpg",
+                "price": 19500,
+                "address": "P. G. Ramms Alle 10",
+                "bathrooms": 2,
+                "bedrooms": 4,
+                "surface": 170,
+                "zipcode": "2400"
+            }
+        },
+        "image": "",
+        "id": "5d7f4e33697f6"
+    },
+    "5d7f4e47ec163": {
+        "name": "Marius",
+        "lastname": "Ioan",
+        "email": "l@l.com",
+        "password": "vberivberiuvber",
+        "properties": {
+            "P13": {
+                "id": "P13",
+                "geometry": {
+                    "coordinates": [
+                        12.616181,
+                        55.613541
+                    ],
+                    "type": "Point"
+                },
+                "iconSize": [
+                    20,
+                    20
+                ],
+                "type": "Feature",
+                "image": "house13.jpg",
+                "price": 15300,
+                "address": "Bernhard Bnags Alle 9",
+                "bathrooms": 1,
+                "bedrooms": 2,
+                "surface": 80,
+                "zipcode": "2300"
+            },
+            "P14": {
+                "id": "P14",
+                "geometry": {
+                    "coordinates": [
+                        12.571093,
+                        55.628191
+                    ],
+                    "type": "Point"
+                },
+                "iconSize": [
+                    20,
+                    20
+                ],
+                "type": "Feature",
+                "image": "house14.jpg",
+                "price": 18400,
+                "address": "B\u00f8rglumvej 12",
+                "bathrooms": 2,
+                "bedrooms": 3,
+                "surface": 140,
+                "zipcode": "2400"
+            }
+        },
+        "image": "",
+        "id": "5d7f4e47ec163"
+    },
+    "5d7f4e5ed917b": {
+        "name": "Ionut",
+        "lastname": "Simeria",
+        "email": "i@i.com",
+        "password": "gvibeiuvjnejbvetb",
+        "properties": {
+            "P15": {
+                "id": "P15",
+                "geometry": {
+                    "coordinates": [
+                        12.587534,
+                        55.686662
+                    ],
+                    "type": "Point"
+                },
+                "iconSize": [
+                    20,
+                    20
+                ],
+                "type": "Feature",
+                "image": "house15.jpg",
+                "price": 17400,
+                "address": "Eriksholmvej 78",
+                "bathrooms": 1,
+                "bedrooms": 3,
+                "surface": 96,
+                "zipcode": "2300"
+            },
+            "P16": {
+                "id": "P16",
+                "geometry": {
+                    "coordinates": [
+                        12.57868,
+                        55.687448
+                    ],
+                    "type": "Point"
+                },
+                "iconSize": [
+                    20,
+                    20
+                ],
+                "type": "Feature",
+                "image": "house16.jpg",
+                "price": 26400,
+                "address": "Jyllingevej 6",
+                "bathrooms": 2,
+                "bedrooms": 3,
+                "surface": 178,
+                "zipcode": "2400"
+            }
+        },
+        "image": "",
+        "id": "5d7f4e5ed917b"
+    },
+    "5d7f4e76ae7a3": {
+        "name": "Stefana",
+        "lastname": "Birsan",
+        "email": "s@s.com",
+        "password": "lvheivubeivenrov",
+        "properties": {
+            "P17": {
+                "id": "P17",
+                "geometry": {
+                    "coordinates": [
+                        12.407774,
+                        55.672704
+                    ],
+                    "type": "Point"
+                },
+                "iconSize": [
+                    20,
+                    20
+                ],
+                "type": "Feature",
+                "image": "house17.jpg",
+                "price": 32200,
+                "address": "Otto M\u00f8llers V\u00e6nge 3",
+                "bathrooms": 3,
+                "bedrooms": 6,
+                "surface": 230,
+                "zipcode": "2200"
+            },
+            "P18": {
+                "id": "P18",
+                "geometry": {
+                    "coordinates": [
+                        12.458708,
+                        55.671115
+                    ],
+                    "type": "Point"
+                },
+                "iconSize": [
+                    20,
+                    20
+                ],
+                "type": "Feature",
+                "image": "house18.jpg",
+                "price": 16800,
+                "address": "Fraligsvej 5",
+                "bathrooms": 2,
+                "bedrooms": 4,
+                "surface": 120,
+                "zipcode": "2300"
+            },
+            "P19": {
+                "id": "P19",
+                "geometry": {
+                    "coordinates": [
+                        12.457805,
+                        55.694635
+                    ],
+                    "type": "Point"
+                },
+                "iconSize": [
+                    20,
+                    20
+                ],
+                "type": "Feature",
+                "image": "house19.jpg",
+                "price": 14000,
+                "address": "Solsortevej 78",
+                "bathrooms": 1,
+                "bedrooms": 3,
+                "surface": 70,
+                "zipcode": "2400"
+            }
+        },
+        "image": "5d820d1679d4e.jpg",
+        "id": "5d7f4e76ae7a3"
+    },
+    "5d7f4ea7e0e82": {
+        "name": "Bogdan",
+        "lastname": "Luca",
+        "email": "h@h.com",
+        "password": "eruhveiruvneovne",
+        "properties": {
+            "P20": {
+                "id": "P20",
+                "geometry": {
+                    "coordinates": [
+                        12.489111,
+                        55.725507
+                    ],
+                    "type": "Point"
+                },
+                "iconSize": [
+                    20,
+                    20
+                ],
+                "type": "Feature",
+                "image": "house20.jpg",
+                "price": 26000,
+                "address": "Gamle Landevej 56",
+                "bathrooms": 3,
+                "bedrooms": 6,
+                "surface": 220,
+                "zipcode": "2200"
+            },
+            "P21": {
+                "id": "P21",
+                "geometry": {
+                    "coordinates": [
+                        12.524891,
+                        55.739229
+                    ],
+                    "type": "Point"
+                },
+                "iconSize": [
+                    20,
+                    20
+                ],
+                "type": "Feature",
+                "image": "house21.jpg",
+                "price": 21300,
+                "address": "Trippendalsvej 12",
+                "bathrooms": 2,
+                "bedrooms": 5,
+                "surface": 175,
+                "zipcode": "2300"
+            },
+            "P22": {
+                "id": "P22",
+                "geometry": {
+                    "coordinates": [
+                        12.541268,
+                        55.743837
+                    ],
+                    "type": "Point"
+                },
+                "iconSize": [
+                    20,
+                    20
+                ],
+                "type": "Feature",
+                "image": "house22.jpg",
+                "price": 12900,
+                "address": "Herstedvestervej 10",
+                "bathrooms": 2,
+                "bedrooms": 4,
+                "surface": 90,
+                "zipcode": "2400"
+            }
+        },
+        "image": "5d8229a4b2e3d.jpg",
+        "id": "5d7f4ea7e0e82"
+    },
+    "5d7f4eca78824": {
+        "name": "Mircea",
+        "lastname": "Popa",
+        "email": "q@q.com",
+        "password": "igvegbivribtub",
+        "properties": {
+            "P23": {
+                "id": "P23",
+                "geometry": {
+                    "coordinates": [
+                        12.416214,
+                        55.63476
+                    ],
+                    "type": "Point"
+                },
+                "iconSize": [
+                    20,
+                    20
+                ],
+                "type": "Feature",
+                "image": "house23.jpg",
+                "price": 11000,
+                "address": "Egelundsvej 17",
+                "bathrooms": 1,
+                "bedrooms": 2,
+                "surface": 75,
+                "zipcode": "2300"
+            },
+            "P24": {
+                "id": "P24",
+                "geometry": {
+                    "coordinates": [
+                        12.4687,
+                        55.623838
+                    ],
+                    "type": "Point"
+                },
+                "iconSize": [
+                    20,
+                    20
+                ],
+                "type": "Feature",
+                "image": "house24.jpg",
+                "price": 13200,
+                "address": "I. H. Mundts Vej 16",
+                "bathrooms": 2,
+                "bedrooms": 4,
+                "surface": 80,
+                "zipcode": "2400"
+            }
+        },
+        "image": "",
+        "id": "5d7f4eca78824"
+    },
+    "5d7f4efee322a": {
+        "name": "Helle",
+        "lastname": "Rosenbjerg",
+        "email": "f@f.com",
+        "password": "bjnrnjbrkjbrjtbrbmkr",
+        "properties": {
+            "5d80ea4356935": {
+                "id": "5d80ea4356935",
+                "geometry": {
+                    "coordinates": [
+                        12.532225,
+                        55.72419
+                    ],
+                    "type": "Point"
+                },
+                "iconSize": [
+                    20,
+                    20
+                ],
+                "type": "Feature",
+                "image": "5d80ea43564e0.jpg",
+                "price": 9000,
+                "address": "Jagtvej 13",
+                "bathrooms": 1,
+                "bedrooms": 2,
+                "surface": 80,
+                "zipcode": "2200"
+            }
+        },
+        "image": "5d81e248a03f0.jpg",
+        "id": "5d7f4efee322a"
+    }
+}

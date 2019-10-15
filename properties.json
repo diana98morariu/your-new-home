@@ -1,0 +1,47 @@
+[
+    // {
+    //     "id":"P1",
+    //     "geometry":{
+    //         "coordinates":[12.554867, 55.707038],
+    //         "type": "Point"
+    //     },
+    //     "iconSize": [20, 20],
+    //     "type": "Feature",
+    //     "image": "images/house1.jpg",
+    //     "address": "2715 Valiant Dr",
+    //     "bathrooms": 2,
+    //     "bedrooms": 3,
+    //     "surface": 150,
+    //     "zipcode": "2300"
+    // },
+    // {
+    //     "id":"P2",
+    //     "geometry":{
+    //         "coordinates":[ 12.549720, 55.713084],
+    //         "type": "Point"
+    //     },
+    //     "iconSize": [20, 20],
+    //     "type": "Feature",
+    //     "image": "images/house2.jpg",
+    //     "address": "2715 Florida Boys Ranch Rd",
+    //     "bathrooms": 1,
+    //     "bedrooms": 2,
+    //     "surface": 100,
+    //     "zipcode": "2200"
+    // },
+    // {
+    //     "id":"P3",
+    //     "geometry":{
+    //         "coordinates":[12.489816, 55.699316],
+    //         "type": "Point"
+    //     },
+    //     "iconSize": [20, 20],
+    //     "type": "Feature",
+    //     "image": "images/house3.jpg",
+    //     "address": "10301 Us Highway 27 UNIT 2",
+    //     "bathrooms": 2,
+    //     "bedrooms": 4,
+    //     "surface": 170,
+    //     "zipcode": "2400"
+    // }
+]
